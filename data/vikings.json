@@ -1,0 +1,28 @@
+[
+    {
+    "id": 1,
+    "firstName": "Hiccup Horrendous",
+    "lastName": "Haddock III",
+    "tribe": "Hooligan",
+    "gender": "Male",
+    "height": "6'11\"",
+    "eyes": "Green",
+    "hair": "Auburn",
+    "weapon": "blade",
+    "location": "Berk",
+    "image": "TBD"
+    },
+    {
+        "id": 2,
+        "firstName": "Astrid",
+        "lastName": "Hofferson",
+        "tribe": "Hooligan",
+        "gender": "Female",
+        "height": "5'9\"",
+        "eyes": "Blue",
+        "hair": "Blond",
+        "weapon": "Axe",
+        "location": "Berk",
+        "image": "TBD"
+    }
+]
