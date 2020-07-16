@@ -1,5 +1,4 @@
 import { join } from "https://deno.land/std@0.61.0/path/mod.ts";
-import { Viking } from "./VikingInterface.ts";
 
 export class FileReader {
 
