@@ -19,5 +19,5 @@ An API made by a fan who ❤️ every 🐉
 
 
 
-# Disclaimer
+## Disclaimer
 How To Train Your Dragon and How To Train Your Dragon Characters are trademarks of DreamWorks Animation L.L.C.
