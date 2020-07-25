@@ -18,6 +18,6 @@ An API made by a fan who ❤️ every 🐉
     - Fetching a number of random vikings: `http://localhost:8000/vikings/random/number`
 
 
-##Disclaimer
-#
+
+# Disclaimer
 How To Train Your Dragon and How To Train Your Dragon Characters are trademarks of DreamWorks Animation L.L.C.
