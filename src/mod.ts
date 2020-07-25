@@ -6,14 +6,16 @@ import api from "./api.ts";
 const app = new Application();
 const PORT = 8000;
 
+const fileHandler = new log.handlers.FileHandler("INFO", {
+    filename: "./log/httydLog.txt",
+    formatter: "{datetime} - {levelName} : {msg}",
+    mode: 'a',
+});
+
 await log.setup({
     handlers: {
         console: new log.handlers.ConsoleHandler("INFO"),
-        file: new log.handlers.FileHandler("INFO", {
-            filename: "./log/httydLog.txt",
-            formatter: "{datetime} - {levelName} : {msg}",
-            mode: 'a',
-        }),
+        file: fileHandler,
     },
     loggers: {
         default: {
@@ -25,6 +27,7 @@ await log.setup({
 
 app.addEventListener("error", (event) => {
     log.error(event.error.message);
+    fileHandler.flush();
 });
 
 app.use(async (ctx, next) => {
