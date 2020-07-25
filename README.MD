@@ -16,3 +16,7 @@ An API made by a fan who ❤️ every 🐉
     - Fetching all the vikings: `http://localhost:8000/vikings`
     - Fetching one viking: `http://localhost:8000/vikings/id`
     - Fetching a number of random vikings: `http://localhost:8000/vikings/random/number`
+
+
+
+How To Train Your Dragon and How To Train Your Dragon Characters are trademarks of DreamWorks Animation L.L.C.
