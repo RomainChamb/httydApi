@@ -8,7 +8,7 @@ An API made by a fan who ❤️ every 🐉
 2. In the terminal, run: `deno run -A Drakefile.ts start`
 
 ## Test
-1. In the terminal, run: `deno run -A Drakefile.ts test``
+1. In the terminal, run: `deno run -A Drakefile.ts test`
 
 ## API
 1. Ensure that the API is working by making a GET request on `http://localhost:8000/`
