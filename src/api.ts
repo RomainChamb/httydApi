@@ -12,7 +12,7 @@ An API made by a fan who ❤️ every 🐉
 Here you can :
     - get all vikings : /vikings
     - get one vikings : /vikings/id
-    - get a random number of vikings : /vikings/random/number
+    - get a number of random vikings : /vikings/random/number
 `
 });
 
