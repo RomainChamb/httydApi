@@ -28,6 +28,8 @@ jobs:
       run: |
         echo Installing Deno v1.2.0,
         curl -fsSL https://deno.land/x/install/install.sh | sh
+        export DENO_INSTALL="/home/runner/.deno"
+        export PATH="$DENO_INSTALL/bin:$PATH"
         deno --version
         
     - name: Test project
