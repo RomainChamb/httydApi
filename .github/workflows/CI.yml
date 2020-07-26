@@ -35,4 +35,4 @@ jobs:
     - name: Test project
       run: |
         echo Start testing
-        /home/runner/.deno/bin/deno run -A Drakefile.ts test
+        /home/runner/.deno/bin/deno test
