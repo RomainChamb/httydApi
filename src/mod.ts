@@ -4,7 +4,7 @@ import * as log from "https://deno.land/std@0.62.0/log/mod.ts";
 import api from "./api.ts";
 
 const app = new Application();
-const PORT = 8000;
+const PORT = 8001;
 
 const fileHandler = new log.handlers.FileHandler("INFO", {
     filename: "./log/httydLog.txt",

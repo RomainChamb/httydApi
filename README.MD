@@ -13,9 +13,9 @@ An API made by a fan who ❤️ every 🐉
 ## API
 1. Ensure that the API is working by making a GET request on `http://localhost:8000/`
 2. What you can do :
-    - Fetching all the vikings: `http://localhost:8000/vikings`
-    - Fetching one viking: `http://localhost:8000/vikings/id`
-    - Fetching a number of random vikings: `http://localhost:8000/vikings/random/number`
+    - Fetching all the vikings: `http://localhost:8001/vikings`
+    - Fetching one viking: `http://localhost:8001/vikings/id`
+    - Fetching a number of random vikings: `http://localhost:8001/vikings/random/number`
 
 
 
