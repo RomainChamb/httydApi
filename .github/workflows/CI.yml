@@ -35,4 +35,5 @@ jobs:
     - name: Test project
       run: |
         echo Start testing
-        deno run -A Drakefile.ts test
+        cd ./httydApi
+        /home/runner/.deno/bin/deno run -A Drakefile.ts test
