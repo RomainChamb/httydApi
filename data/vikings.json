@@ -10,7 +10,7 @@
         "hair": "Auburn",
         "weapon": "blade",
         "location": "Berk",
-        "image": "TBD"
+        "image": "https://ibb.co/PhbMTQK"
     },
     {
         "id": 2,
@@ -23,7 +23,7 @@
         "hair": "Blonde",
         "weapon": "Axe",
         "location": "Berk",
-        "image": "TBD"
+        "image": "https://ibb.co/1v1WddN"
     },
     {
         "id": 3,
@@ -36,7 +36,7 @@
         "hair": "Blonde",
         "weapon": "Dragon knowledge",
         "location": "Berk",
-        "image": "TBD"
+        "image": "https://ibb.co/kD1HjXB"
     },
     {
         "id": 4,
@@ -49,7 +49,7 @@
         "hair": "Blonde",
         "weapon": "Spear",
         "location": "Berk",
-        "image": "TBD"
+        "image": "https://ibb.co/0jHMwJ0"
     },
     {
         "id": 5,
@@ -61,8 +61,8 @@
         "eyes": "Blue",
         "hair": "Blonde",
         "weapon": "Spear",
-        "location": "TBD",
-        "image": "TBD"
+        "location": "Berk",
+        "image": "https://ibb.co/NjVg7fn"
     },
     {
         "id": 6,
@@ -75,7 +75,7 @@
         "hair": "Brown",
         "weapon": "Hammer",
         "location": "Berk",
-        "image": "TBD"
+        "image": "https://ibb.co/FKQxnc4"
     },
     {
         "id": 7,
@@ -88,7 +88,7 @@
         "hair": "Red",
         "weapon": "Axe",
         "location": "Berk",
-        "image": "TBD"
+        "image": "https://ibb.co/pPTg70K"
     },
     {
         "id": 8,
@@ -101,7 +101,7 @@
         "hair": "Red",
         "weapon": "Staff",
         "location": "Unknown",
-        "image": "TBD"
+        "image": "https://ibb.co/Pgz4scW"
     },
     {
         "id": 9,
@@ -114,7 +114,7 @@
         "hair": "Dirty Blonde",
         "weapon": "Any",
         "location": "Berk",
-        "image": "TBD"
+        "image": "https://ibb.co/CHzPZsX"
     },
     {
         "id": 10,
@@ -127,7 +127,7 @@
         "hair": "Black",
         "weapon": "Sword",
         "location": "Unknown",
-        "image": "TBD"
+        "image": "https://ibb.co/QJPXwNx"
     },
     {
         "id": 11,
@@ -140,7 +140,7 @@
         "hair": "Red",
         "weapon": "Unhinged Mind",
         "location": "Unknown",
-        "image": "TBD"
+        "image": "https://ibb.co/m4JVDyz"
     },
     {
         "id": 12,
@@ -153,7 +153,7 @@
         "hair": "Black",
         "weapon": "Dragon-based",
         "location": "Unknown",
-        "image": "TBD"
+        "image": "https://ibb.co/XFhSHWH"
     },
     {
         "id": 13,
@@ -166,7 +166,7 @@
         "hair": "Black",
         "weapon": "Bulhook",
         "location": "Unknown",
-        "image": "TBD"
+        "image": "https://ibb.co/KLZvk9t"
     },
     {
         "id": 14,
@@ -179,6 +179,6 @@
         "hair": "Black",
         "weapon": "Double Axe",
         "location": "Various",
-        "image": "TBD"
+        "image": "https://ibb.co/y5z3JYB"
     }
 ]
