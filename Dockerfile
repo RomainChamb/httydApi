@@ -2,7 +2,7 @@ FROM hayd/deno:alpine-1.2.1
 
 WORKDIR /app
 
-COPY . .
+COPY --chown=deno:deno . .
 
 USER deno
 
