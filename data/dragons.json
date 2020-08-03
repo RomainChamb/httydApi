@@ -8,13 +8,13 @@
         "speed": "Maximum",
         "armor": "Medium",
         "firepower": "Medium",
-        "shot-limit": "High",
+        "shotLimit": "High",
         "venom": "N/A",
-        "jaw-strength": "Low",
+        "jawStrength": "Low",
         "stealth": "Very High",
         "description": "Loyal and empathic with boundless, puppy-like energy",
         "image": "TBD",
-        "class-immage": "TBD"
+        "classImage": "TBD"
     },
     {
         "id": 2,
@@ -25,13 +25,13 @@
         "speed": "Low",
         "armor": "Medium",
         "firepower": "High",
-        "shot-limit": "High",
+        "shotLimit": "High",
         "venom": "Maximum",
-        "jaw-strength": "Low",
+        "jawStrength": "Low",
         "stealth": "Medium",
         "description": "Precise and cunning in battle, yet warm and affectionate with friends old and new",
         "image": "TBD",
-        "class-immage": "TBD"
+        "classImage": "TBD"
     },
     {
         "id": 3,
@@ -42,13 +42,13 @@
         "speed": "Medium",
         "armor": "Low",
         "firepower": "High",
-        "shot-limit": "High",
+        "shotLimit": "High",
         "venom": "N/A",
-        "jaw-strength": "Low",
+        "jawStrength": "Low",
         "stealth": "Maximum",
         "description": "Truly a split personality! Barf & Belch are each fiercely independent, yet inextricably linked",
         "image": "TBD",
-        "class-immage": "TBD"
+        "classImage": "TBD"
     },
     {
         "id": 4,
@@ -59,13 +59,13 @@
         "speed": "Low",
         "armor": "High",
         "firepower": "Medium",
-        "shot-limit": "High",
+        "shotLimit": "High",
         "venom": "N/A",
-        "jaw-strength": "Low",
+        "jawStrength": "Low",
         "stealth": "Low",
         "description": "A loyal, lava-launching helper -- when he isn't napping",
         "image": "TBD",
-        "class-immage": "TBD"
+        "classImage": "TBD"
     },
     {
         "id": 5,
@@ -76,13 +76,13 @@
         "speed": "High",
         "armor": "Medium",
         "firepower": "High",
-        "shot-limit": "Maximum",
+        "shotLimit": "Maximum",
         "venom": "N/A",
-        "jaw-strength": "Low",
+        "jawStrength": "Low",
         "stealth": "Low",
         "description": "Incendiary in temperament and short on patience, Hookfang would rather ignite 1st and think 2nd",
         "image": "TBD",
-        "class-immage": "TBD"
+        "classImage": "TBD"
     },
     {
         "id": 6,
@@ -93,13 +93,13 @@
         "speed": "Maximum",
         "armor": "Medium",
         "firepower": "Medium",
-        "shot-limit": "High",
+        "shotLimit": "High",
         "venom": "N/A",
-        "jaw-strength": "Low",
+        "jawStrength": "Low",
         "stealth": "Very High",
         "description": "The feline-like Light Fury is gentle and playful by nature, like Toothless, but fiercely protective when danger is present",
         "image": "TBD",
-        "class-immage": "TBD"
+        "classImage": "TBD"
     },
     {
         "id": 7,
@@ -110,13 +110,13 @@
         "speed": "Low",
         "armor": "High",
         "firepower": "Medium",
-        "shot-limit": "High",
+        "shotLimit": "High",
         "venom": "N/A",
-        "jaw-strength": "Low",
+        "jawStrength": "Low",
         "stealth": "Low",
         "description": "Exceedingly demonstrative and sweet, yet quite self-conscious despite her thick hide",
         "image": "TBD",
-        "class-immage": "TBD"
+        "classImage": "TBD"
     },
     {
         "id": 8,
@@ -127,13 +127,13 @@
         "speed": "Low",
         "armor": "Very Low",
         "firepower": "N/A",
-        "shot-limit": "Very High",
+        "shotLimit": "Very High",
         "venom": "N/A",
-        "jaw-strength": "N/A",
+        "jawStrength": "N/A",
         "stealth": "N/A",
         "description": "Proud and confident",
         "image": "TBD",
-        "class-immage": "TBD"
+        "classImage": "TBD"
     },
     {
         "id": 9,
@@ -144,13 +144,13 @@
         "speed": "Low",
         "armor": "Low",
         "firepower": "Low",
-        "shot-limit": "Low",
+        "shotLimit": "Low",
         "venom": "N/A",
-        "jaw-strength": "Low",
+        "jawStrength": "Low",
         "stealth": "N/A",
         "description": "Doggedly determined when he's caught a scent",
         "image": "TBD",
-        "class-immage": "TBD"
+        "classImage": "TBD"
     },
     {
         "id": 10,
@@ -161,13 +161,13 @@
         "speed": "Low",
         "armor": "Maximum",
         "firepower": "Low",
-        "shot-limit": "Low",
+        "shotLimit": "Low",
         "venom": "N/A",
-        "jaw-strength": "Low",
+        "jawStrength": "Low",
         "stealth": "Very Low",
         "description": "Metal-Plated Plunderer",
         "image": "TBD",
-        "class-immage": "TBD"
+        "classImage": "TBD"
     },
     {
         "id": 11,
@@ -178,13 +178,13 @@
         "speed": "Low",
         "armor": "Very High",
         "firepower": "Low",
-        "shot-limit": "Low",
+        "shotLimit": "Low",
         "venom": "N/A",
-        "jaw-strength": "Low",
+        "jawStrength": "Low",
         "stealth": "Very Low",
         "description": "Volcanic & valiant",
         "image": "TBD",
-        "class-immage": "TBD"
+        "classImage": "TBD"
     },
     {
         "id": 12,
@@ -195,13 +195,13 @@
         "speed": "Low",
         "armor": "Very Low",
         "firepower": "Low",
-        "shot-limit": "Low",
+        "shotLimit": "Low",
         "venom": "N/A",
-        "jaw-strength": "Very Low",
+        "jawStrength": "Very Low",
         "stealth": "Low",
         "description": "Shy at first, but great as allies once trust is built",
         "image": "TBD",
-        "class-immage": "TBD"
+        "classImage": "TBD"
     },
     {
         "id": 13,
@@ -212,13 +212,13 @@
         "speed": "Medium",
         "armor": "Low",
         "firepower": "Very Low",
-        "shot-limit": "Low",
+        "shotLimit": "Low",
         "venom": "High",
-        "jaw-strength": "Very Low",
+        "jawStrength": "Very Low",
         "stealth": "Very Low",
         "description": "Masters of the sneak attack",
         "image": "TBD",
-        "class-immage": "TBD"
+        "classImage": "TBD"
     },
     {
         "id": 14,
@@ -229,13 +229,13 @@
         "speed": "High",
         "armor": "Low",
         "firepower": "Low",
-        "shot-limit": "Very Low",
+        "shotLimit": "Very Low",
         "venom": "N/A",
-        "jaw-strength": "Very Low",
+        "jawStrength": "Very Low",
         "stealth": "Low",
         "description": "Belligerent and as unpredictable as lightning strikes",
         "image": "TBD",
-        "class-immage": "TBD"
+        "classImage": "TBD"
     },
     {
         "id": 15,
@@ -246,13 +246,13 @@
         "speed": "Very Low",
         "armor": "Very Low",
         "firepower": "Very Low",
-        "shot-limit": "Very Low",
+        "shotLimit": "Very Low",
         "venom": "Very High",
-        "jaw-strength": "High",
+        "jawStrength": "High",
         "stealth": "Maximum",
         "description": "Temptation and terror to the fourth power",
         "image": "TBD",
-        "class-immage": "TBD"
+        "classImage": "TBD"
     },
     {
         "id": 16,
@@ -263,13 +263,13 @@
         "speed": "Low",
         "armor": "Low",
         "firepower": "Low",
-        "shot-limit": "Low",
+        "shotLimit": "Low",
         "venom": "High",
-        "jaw-strength": "Very Low",
+        "jawStrength": "Very Low",
         "stealth": "Low",
         "description": "Inquisitive and curious animals, their only downfall is their territorial in-fighting",
         "image": "TBD",
-        "class-immage": "TBD"
+        "classImage": "TBD"
     },
     {
         "id": 17,
@@ -280,13 +280,13 @@
         "speed": "Medium",
         "armor": "Low",
         "firepower": "Low",
-        "shot-limit": "Low",
+        "shotLimit": "Low",
         "venom": "N/A",
-        "jaw-strength": "Low",
+        "jawStrength": "Low",
         "stealth": "Low",
         "description": "Strident and assertive, the loud Thunderdrum always makes its feelings known",
         "image": "TBD",
-        "class-immage": "TBD"
+        "classImage": "TBD"
     },
     {
         "id": 18,
@@ -297,13 +297,13 @@
         "speed": "Medium",
         "armor": "Low",
         "firepower": "Low",
-        "shot-limit": "Low",
+        "shotLimit": "Low",
         "venom": "N/A",
-        "jaw-strength": "Very Low",
+        "jawStrength": "Very Low",
         "stealth": "Low",
         "description": "Modest serenity balanced with fierce protection of their riders",
         "image": "TBD",
-        "class-immage": "TBD"
+        "classImage": "TBD"
     },
     {
         "id": 19,
@@ -314,13 +314,13 @@
         "speed": "Low",
         "armor": "Low",
         "firepower": "Very Low",
-        "shot-limit": "Very Low",
+        "shotLimit": "Very Low",
         "venom": "Very Low",
-        "jaw-strength": "Very Low",
+        "jawStrength": "Very Low",
         "stealth": "Low",
         "description": "Blindly aggressive and capable of holding a grudge like no other dragon",
         "image": "TBD",
-        "class-immage": "TBD"
+        "classImage": "TBD"
     },
     {
         "id": 20,
@@ -331,13 +331,13 @@
         "speed": "Very Low",
         "armor": "Low",
         "firepower": "Low",
-        "shot-limit": "Very Low",
+        "shotLimit": "Very Low",
         "venom": "N/A",
-        "jaw-strength": "Very Low",
+        "jawStrength": "Very Low",
         "stealth": "Very Low",
         "description": "Bouncing boulders of joy that need lots of sleep, food, and attention",
         "image": "TBD",
-        "class-immage": "TBD"
+        "classImage": "TBD"
     },
     {
         "id": 21,
@@ -348,13 +348,13 @@
         "speed": "Low",
         "armor": "Very Low",
         "firepower": "Low",
-        "shot-limit": "Low",
+        "shotLimit": "Low",
         "venom": "Low",
-        "jaw-strength": "Very Low",
+        "jawStrength": "Very Low",
         "stealth": "Very Low",
         "description": "Quick, Curious, and prone to temper-tantrums - Like the toddlers of the dragon world",
         "image": "TBD",
-        "class-immage": "TBD"
+        "classImage": "TBD"
     },
     {
         "id": 22,
@@ -365,13 +365,13 @@
         "speed": "Low",
         "armor": "Very Low",
         "firepower": "Low",
-        "shot-limit": "Very Low",
+        "shotLimit": "Very Low",
         "venom": "N/A",
-        "jaw-strength": "Very Low",
+        "jawStrength": "Very Low",
         "stealth": "Low",
         "description": "Double Trouble",
         "image": "TBD",
-        "class-immage": "TBD"
+        "classImage": "TBD"
     },
     {
         "id": 23,
@@ -382,13 +382,13 @@
         "speed": "Low",
         "armor": "Very High",
         "firepower": "Maximum",
-        "shot-limit": "Low",
+        "shotLimit": "Low",
         "venom": "N/A",
-        "jaw-strength": "Very High",
+        "jawStrength": "Very High",
         "stealth": "N/A",
         "description": "Scarred and bred for battle",
         "image": "TBD",
-        "class-immage": "TBD"
+        "classImage": "TBD"
     },
     {
         "id": 24,
@@ -399,30 +399,30 @@
         "speed": "Low",
         "armor": "Very High",
         "firepower": "Maximum",
-        "shot-limit": "Low",
+        "shotLimit": "Low",
         "venom": "N/A",
-        "jaw-strength": "Very High",
+        "jawStrength": "Very High",
         "stealth": "N/A",
         "description": "The benevolent and leonine king of all dragons",
         "image": "TBD",
-        "class-immage": "TBD"
+        "classImage": "TBD"
     },
     {
         "id": 25,
         "name": "",
-        "species": "Death SOng",
+        "species": "Death Song",
         "class": "Mystery",
         "attack": "Low",
         "speed": "High",
         "armor": "Low",
         "firepower": "Low",
-        "shot-limit": "Low",
+        "shotLimit": "Low",
         "venom": "N/A",
-        "jaw-strength": "Low",
+        "jawStrength": "Low",
         "stealth": "N/A",
         "description": "Enticing and siren-like, this species of dragon is decidedly solitary",
         "image": "TBD",
-        "class-immage": "TBD"
+        "classImage": "TBD"
     },
     {
         "id": 26,
@@ -433,12 +433,12 @@
         "speed": "Medium",
         "armor": "Low",
         "firepower": "Low",
-        "shot-limit": "Maximum",
+        "shotLimit": "Maximum",
         "venom": "N/A",
-        "jaw-strength": "Very Low",
+        "jawStrength": "Very Low",
         "stealth": "Very Low",
         "description": "Imitative",
         "image": "TBD",
-        "class-immage": "TBD"
+        "classImage": "TBD"
     }
 ]
