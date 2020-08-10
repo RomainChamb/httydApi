@@ -1,5 +1,5 @@
 import { assertEquals } from "https://deno.land/std@0.61.0/testing/asserts.ts";
-import { filterDragonsById } from "./dragons.ts";
+import { filterDragonsById, getRandomDragons } from "./dragons.ts";
 
 const DRAGON_ID_1 = {
     "id": 1,
@@ -62,4 +62,13 @@ Deno.test("Filter dragons by id", async () => {
         DRAGON_ID_3
     ]);
     assertEquals(filtered, [DRAGON_ID_1]);
+});
+
+Deno.test("get a random number of Dragons", async () => {
+    const randomDragons = await getRandomDragons(2, [
+        DRAGON_ID_1,
+        DRAGON_ID_2,
+        DRAGON_ID_3
+    ]);
+    assertEquals(randomDragons.length, 2);
 });

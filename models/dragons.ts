@@ -53,3 +53,35 @@ export async function getAll(): Promise<Array<Dragon> | Error> {
     }
     throw new Error("Now dragons found !")
 }
+
+export async function getRandom(number: number): Promise<Array<Dragon> | Error> {
+    log.info("GetRandom start...");
+    const dragons = await retrieveAndConvertData();
+    if (number === 0) {
+        log.error("Impossible to search for 0 dragon");
+        throw new Error("Please choose a number higher than 0");
+    } else if (number > dragons.length) {
+        log.error(`${number} is higher than the number of vikings : ${dragons.length}`);
+        throw new Error(`Please choose a number higher than 0 and lower than ${dragons.length}`);
+    } else if (dragons !== null && dragons !== undefined && dragons.length > 0) {
+        return await getRandomDragons(number, dragons);
+    }
+    log.error("No available data");
+    throw new Error("No Dragons found !");
+}
+
+export async function getRandomDragons(number: number, vikings: Array<Dragon>): Promise<Array<Dragon>> {
+    const randomDragons = new Map<number, Dragon>();
+    while (randomDragons.size < number) {
+        const randomId = Math.floor((Math.random() * vikings.length) + 1);
+        if (randomDragons.size === 0) {
+            const viking = await filterDragonsById(randomId, vikings);
+            randomDragons.set(randomId, viking[0]);
+        } else if (!randomDragons.has(randomId)) {
+            const viking = await filterDragonsById(randomId, vikings);
+            randomDragons.set(randomId, viking[0]);
+        }
+    }
+    log.info(`${number} random viking(s) found!`);
+    return [...randomDragons.values()];
+}
