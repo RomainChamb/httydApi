@@ -1,7 +1,7 @@
 import { FileReader } from "../models/fileReader.ts"
 import * as log from "https://deno.land/std@0.61.0/log/mod.ts";
 
-interface Viking {
+export interface Viking {
     id: number;
     firstName: string;
     lastName: string;
@@ -14,7 +14,7 @@ interface Viking {
     image: string;
 }
 
-async function retrieveAndConvertData(): Promise<Array<Viking>> {
+export async function retrieveAndConvertData(): Promise<Array<Viking>> {
     log.info("Retrieving and converting data start...");
     const vikings = await new FileReader().readJson("data", "vikings.json") as Array<Viking>;
     log.info(`Retrieving and converting data end...`)
