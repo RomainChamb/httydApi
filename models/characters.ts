@@ -1,10 +1,10 @@
 import * as log from "https://deno.land/std@0.61.0/log/mod.ts";
 
-import { Dragon, retrieveAndConvertData as getAllDragons } from "./dragons";
-import { Viking, retrieveAndConvertData as getAllVikings } from "./vikings"
+import { Dragon, retrieveAndConvertData as getAllDragons } from "./dragons.ts";
+import { Viking, retrieveAndConvertData as getAllVikings } from "./vikings.ts"
 
-interface Character {
-    type: "Dragon" | "Viking";
+export interface Character {
+    type: string;
     payload: Dragon | Viking
 }
 
@@ -67,12 +67,12 @@ export async function getRandomCharacters(number: number, characters: Array<Char
     return [...randomCharacters.values()];
 }
 
-function filterByType(type: String, characters: Array<Character>): Array<Character> {
+export function filterByType(type: String, characters: Array<Character>): Array<Character> {
     log.info(`Filtering with type : ${type}`);
     return characters.filter((character: Character) => character.type === type);
 }
 
-function filterById(id: number, characters: Array<Character>): Array<Character> {
+export function filterById(id: number, characters: Array<Character>): Array<Character> {
     log.info(`Filtering with id : ${id}`);
     return characters.filter((character: Character) => character.payload.id === id);
 }
