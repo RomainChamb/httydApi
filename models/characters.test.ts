@@ -1,5 +1,5 @@
 import { assertEquals } from "https://deno.land/std@0.61.0/testing/asserts.ts";
-import { Character, filterByType } from "./characters.ts";
+import { Character, filterByType, filterById } from "./characters.ts";
 
 const CHARACTER_ID_1: Character = {
     type: "Dragon",
@@ -87,4 +87,13 @@ Deno.test("filter characters by type", async () => {
     assertEquals(filtered.length, 2);
     assertEquals(filtered[0].type, "Viking");
     assertEquals(filtered[1].type, "Viking");
+});
+
+Deno.test("filter characters by id", async() => {
+    const filtered = await filterById(1, [
+        CHARACTER_ID_1,
+        CHARACTER_ID_2
+    ]);
+    assertEquals(filtered.length, 1);
+    assertEquals(filtered[0].payload.id, 1);
 });
