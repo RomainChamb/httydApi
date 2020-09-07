@@ -2,6 +2,7 @@ import { Router } from "https://deno.land/x/oak@v6.0.1/mod.ts";
 
 import * as vikings from "../models/vikings.ts";
 import * as dragons from "../models/dragons.ts";
+import * as characters from "../models/characters.ts"
 
 const router = new Router();
 
@@ -73,6 +74,22 @@ router.get("/dragons/random/:number", async (ctx) => {
         }
     } else {
         ctx.throw (400, "Bad request");
+    }
+});
+
+router.get("/characters", async (ctx) => {
+    ctx.response.body = await characters.getAll()
+});
+
+router.get("/characters/random/:number", async (ctx) => {
+    if (ctx.params?.number && !isNaN(Number(ctx.params?.number))) {
+        try {
+            ctx.response.body = await characters.getRandom(Number(ctx.params?.number));
+        } catch (err) {
+            ctx.throw(404, err.message);
+        }
+    } else {
+        ctx.throw(400, "Bad request");
     }
 });
 

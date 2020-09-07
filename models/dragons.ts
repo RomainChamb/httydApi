@@ -1,7 +1,7 @@
 import { FileReader } from "../models/fileReader.ts"
 import * as log from "https://deno.land/std@0.61.0/log/mod.ts";
 
-interface Dragon {
+export interface Dragon {
     id: number;
     name: string;
     species: string;
@@ -19,7 +19,7 @@ interface Dragon {
     classImage: string;
 }
 
-async function retrieveAndConvertData(): Promise<Array<Dragon>> {
+export async function retrieveAndConvertData(): Promise<Array<Dragon>> {
     log.info("Retrieving and converting data start...");
     const dragons = await new FileReader().readJson("data", "dragons.json") as Array<Dragon>;
     log.info(`Retrieving and converting data end...`)
