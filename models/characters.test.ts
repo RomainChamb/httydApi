@@ -1,5 +1,5 @@
 import { assertEquals } from "https://deno.land/std@0.61.0/testing/asserts.ts";
-import { Character, filterByType, filterById } from "./characters.ts";
+import { Character, filterByType, filterById, getRandomCharacters } from "./characters.ts";
 
 const CHARACTER_ID_1: Character = {
     type: "Dragon",
@@ -96,4 +96,14 @@ Deno.test("filter characters by id", async() => {
     ]);
     assertEquals(filtered.length, 1);
     assertEquals(filtered[0].payload.id, 1);
+});
+
+Deno.test("get random characters", async() => {
+    const randomCharacters = await getRandomCharacters(2, [
+        CHARACTER_ID_1,
+        CHARACTER_ID_2,
+        CHARACTER_ID_3,
+        CHARACTER_ID_4
+    ]);
+    assertEquals(randomCharacters.length, 2);
 });
