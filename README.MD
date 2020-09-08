@@ -16,6 +16,11 @@ An API made by a fan who ❤️ every 🐉
     - Fetching all the vikings: `http://localhost:8001/vikings`
     - Fetching one viking: `http://localhost:8001/vikings/id`
     - Fetching a number of random vikings: `http://localhost:8001/vikings/random/number`
+    - Fetching all dragons: `http://localhost:8001/dragons`
+    - Fetching one dragons: `http://localhost:8001/dragons/id`
+    - Fetching a number of random dragons: `http://localhost:8001/dragons/random/number`
+    - Fetching all characters: `http://localhost:8001/characters`
+    - Fetching a number of random characters: `http://localhost:8001/characters/random/number`
 
 
 

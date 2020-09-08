@@ -18,6 +18,8 @@ Here you can :
     - get all dragons : /dragons
     - get one dragon : /dragons/id
     - get a number of random dragons : /dragons/random/number
+    - get all characters : /characters
+    - get a number of random characters : /characters/random/number
 `
 });
 
