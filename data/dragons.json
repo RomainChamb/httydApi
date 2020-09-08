@@ -14,13 +14,13 @@
         "stealth": "Very High",
         "description": "Loyal and empathic with boundless, puppy-like energy",
         "image": "https://ibb.co/z6xDD4L",
-        "classImage": "TBD"
+        "classImage": "https://ibb.co/3CM22XP"
     },
     {
         "id": 2,
         "name": "Stormfly",
         "species": "Deadly Nadder",
-        "class": "Traker",
+        "class": "Tracker",
         "attack": "Low",
         "speed": "Low",
         "armor": "Medium",
@@ -31,7 +31,7 @@
         "stealth": "Medium",
         "description": "Precise and cunning in battle, yet warm and affectionate with friends old and new",
         "image": "https://ibb.co/JnGcvd9",
-        "classImage": "TBD"
+        "classImage": "https://ibb.co/JKNmX66"
     },
     {
         "id": 3,
@@ -48,7 +48,7 @@
         "stealth": "Maximum",
         "description": "Truly a split personality! Barf & Belch are each fiercely independent, yet inextricably linked",
         "image": "https://ibb.co/W60vcYX",
-        "classImage": "TBD"
+        "classImage": "https://ibb.co/cCfDP5P"
     },
     {
         "id": 4,
@@ -65,7 +65,7 @@
         "stealth": "Low",
         "description": "A loyal, lava-launching helper -- when he isn't napping",
         "image": "https://ibb.co/ZG03SZP",
-        "classImage": "TBD"
+        "classImage": "https://ibb.co/VphFy0p"
     },
     {
         "id": 5,
@@ -82,7 +82,7 @@
         "stealth": "Low",
         "description": "Incendiary in temperament and short on patience, Hookfang would rather ignite 1st and think 2nd",
         "image": "https://ibb.co/VYSxLGX",
-        "classImage": "TBD"
+        "classImage": "https://ibb.co/8bNCsRY"
     },
     {
         "id": 6,
@@ -99,7 +99,7 @@
         "stealth": "Very High",
         "description": "The feline-like Light Fury is gentle and playful by nature, like Toothless, but fiercely protective when danger is present",
         "image": "https://ibb.co/CnYt8rS",
-        "classImage": "TBD"
+        "classImage": "https://ibb.co/3CM22XP"
     },
     {
         "id": 7,
@@ -116,7 +116,7 @@
         "stealth": "Low",
         "description": "Exceedingly demonstrative and sweet, yet quite self-conscious despite her thick hide",
         "image": "https://ibb.co/4SPQJsJ",
-        "classImage": "TBD"
+        "classImage": "https://ibb.co/VphFy0p"
     },
     {
         "id": 8,
@@ -133,7 +133,7 @@
         "stealth": "N/A",
         "description": "Proud and confident",
         "image": "https://ibb.co/0JznPFj",
-        "classImage": "TBD"
+        "classImage": "https://ibb.co/PFjPKk6"
     },
     {
         "id": 9,
@@ -150,7 +150,7 @@
         "stealth": "N/A",
         "description": "Doggedly determined when he's caught a scent",
         "image": "https://ibb.co/B6rZb4X",
-        "classImage": "TBD"
+        "classImage": "https://ibb.co/JKNmX66"
     },
     {
         "id": 10,
@@ -167,7 +167,7 @@
         "stealth": "Very Low",
         "description": "Metal-Plated Plunderer",
         "image": "https://ibb.co/Np6X5W9",
-        "classImage": "TBD"
+        "classImage": "https://ibb.co/cCfDP5P"
     },
     {
         "id": 11,
@@ -184,7 +184,7 @@
         "stealth": "Very Low",
         "description": "Volcanic & valiant",
         "image": "https://ibb.co/MZdm4mk",
-        "classImage": "TBD"
+        "classImage": "https://ibb.co/VphFy0p"
     },
     {
         "id": 12,
@@ -201,7 +201,7 @@
         "stealth": "Low",
         "description": "Shy at first, but great as allies once trust is built",
         "image": "https://ibb.co/8P0gHDZ",
-        "classImage": "TBD"
+        "classImage": "https://ibb.co/8bNCsRY"
     },
     {
         "id": 13,
@@ -218,7 +218,7 @@
         "stealth": "Very Low",
         "description": "Masters of the sneak attack",
         "image": "https://ibb.co/brRD9gT",
-        "classImage": "TBD"
+        "classImage": "https://ibb.co/9pPgDmm"
     },
     {
         "id": 14,
@@ -235,7 +235,7 @@
         "stealth": "Low",
         "description": "Belligerent and as unpredictable as lightning strikes",
         "image": "https://ibb.co/DVSLb7d",
-        "classImage": "TBD"
+        "classImage": "https://ibb.co/3CM22XP"
     },
     {
         "id": 15,
@@ -252,13 +252,13 @@
         "stealth": "Maximum",
         "description": "Temptation and terror to the fourth power",
         "image": "https://ibb.co/ZcNzyfj",
-        "classImage": "TBD"
+        "classImage": "https://ibb.co/cCfDP5P"
     },
     {
         "id": 16,
         "name": "",
         "species": "Terrible Terror",
-        "class": "Stoker",
+        "class": "Stocker",
         "attack": "Low",
         "speed": "Low",
         "armor": "Low",
@@ -269,7 +269,7 @@
         "stealth": "Low",
         "description": "Inquisitive and curious animals, their only downfall is their territorial in-fighting",
         "image": "https://ibb.co/ZXLvNJq",
-        "classImage": "TBD"
+        "classImage": "https://ibb.co/8bNCsRY"
     },
     {
         "id": 17,
@@ -286,7 +286,7 @@
         "stealth": "Low",
         "description": "Strident and assertive, the loud Thunderdrum always makes its feelings known",
         "image": "https://ibb.co/nbFY2tG",
-        "classImage": "TBD"
+        "classImage": "https://ibb.co/9pPgDmm"
     },
     {
         "id": 18,
@@ -303,7 +303,7 @@
         "stealth": "Low",
         "description": "Modest serenity balanced with fierce protection of their riders",
         "image": "https://ibb.co/QQycCHJ",
-        "classImage": "TBD"
+        "classImage": "https://ibb.co/PFjPKk6"
     },
     {
         "id": 19,
@@ -320,7 +320,7 @@
         "stealth": "Low",
         "description": "Blindly aggressive and capable of holding a grudge like no other dragon",
         "image": "https://ibb.co/kHd6HgD",
-        "classImage": "TBD"
+        "classImage": "https://ibb.co/VphFy0p"
     },
     {
         "id": 20,
@@ -337,7 +337,7 @@
         "stealth": "Very Low",
         "description": "Bouncing boulders of joy that need lots of sleep, food, and attention",
         "image": "https://ibb.co/2ZkW46D",
-        "classImage": "TBD"
+        "classImage": "https://ibb.co/VphFy0p"
     },
     {
         "id": 21,
@@ -354,7 +354,7 @@
         "stealth": "Very Low",
         "description": "Quick, Curious, and prone to temper-tantrums - Like the toddlers of the dragon world",
         "image": "https://ibb.co/tccLp46",
-        "classImage": "TBD"
+        "classImage": "https://ibb.co/JKNmX66"
     },
     {
         "id": 22,
@@ -371,7 +371,7 @@
         "stealth": "Low",
         "description": "Double Trouble",
         "image": "https://ibb.co/2tY10wc",
-        "classImage": "TBD"
+        "classImage": "https://ibb.co/cCfDP5P"
     },
     {
         "id": 23,
@@ -388,7 +388,7 @@
         "stealth": "N/A",
         "description": "Scarred and bred for battle",
         "image": "https://ibb.co/B298NzZ",
-        "classImage": "TBD"
+        "classImage": "https://ibb.co/9pPgDmm"
     },
     {
         "id": 24,
@@ -405,7 +405,7 @@
         "stealth": "N/A",
         "description": "The benevolent and leonine king of all dragons",
         "image": "https://ibb.co/cC5fk3n",
-        "classImage": "TBD"
+        "classImage": "https://ibb.co/9pPgDmm"
     },
     {
         "id": 25,
@@ -422,7 +422,7 @@
         "stealth": "N/A",
         "description": "Enticing and siren-like, this species of dragon is decidedly solitary",
         "image": "https://ibb.co/QKBRQBj",
-        "classImage": "TBD"
+        "classImage": "https://ibb.co/cCfDP5P"
     },
     {
         "id": 26,
@@ -439,6 +439,6 @@
         "stealth": "Very Low",
         "description": "Imitative",
         "image": "https://ibb.co/ysvb2c2",
-        "classImage": "TBD"
+        "classImage": "https://ibb.co/cCfDP5P"
     }
 ]
