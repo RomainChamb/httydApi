@@ -1,7 +1,8 @@
-import { FileReader } from "../models/fileReader.ts"
-import * as log from "https://deno.land/std@0.61.0/log/mod.ts";
+import { log } from "../src/deps.ts";
 
-interface Viking {
+import { FileReader } from "../models/fileReader.ts"
+
+export interface Viking {
     id: number;
     firstName: string;
     lastName: string;
@@ -14,11 +15,11 @@ interface Viking {
     image: string;
 }
 
-async function retrieveAndConvertData(): Promise<Array<Viking>> {
+export async function retrieveAndConvertData(): Promise<Array<Viking>> {
     log.info("Retrieving and converting data start...");
-    const vikins = await new FileReader().readJson("data", "vikings.json") as Array<Viking>;
+    const vikings = await new FileReader().readJson("data", "vikings.json") as Array<Viking>;
     log.info(`Retrieving and converting data end...`)
-    return vikins;
+    return vikings;
 }
 
 export async function filterVikingById(id: number, vikings: Array<Viking>): Promise<Array<Viking>> {
@@ -27,11 +28,11 @@ export async function filterVikingById(id: number, vikings: Array<Viking>): Prom
 }
 
 export async function getOne(id: number): Promise<Viking | Error> {
-    log.info("GetOne start...")
+    log.info("GetOne viking start...")
     const vikingsList = await retrieveAndConvertData();
     const viking = await filterVikingById(id, vikingsList);
     if (viking !== null && viking !== undefined && viking.length > 0) {
-        log.info("GetOne end...")
+        log.info("GetOne end viking...")
         return viking[0];
     }
     log.error(`No viking found for the id = ${id}`);
@@ -39,8 +40,10 @@ export async function getOne(id: number): Promise<Viking | Error> {
 }
 
 export async function getAll(): Promise<Array<Viking> | Error> {
+    log.info("GetAll vikings start...")
     const vikings = await retrieveAndConvertData();
     if (vikings !== null && vikings !== undefined && vikings.length > 0) {
+        log.info("GetAll vikins end...")
         return vikings;
     }
     throw new Error("No Viking found !");
