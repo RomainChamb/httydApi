@@ -1,5 +1,4 @@
-import { join } from "https://deno.land/std@0.61.0/path/mod.ts";
-import * as log from "https://deno.land/std@0.61.0/log/mod.ts";
+import { log, join } from "../src/deps.ts";
 
 export class FileReader {
 

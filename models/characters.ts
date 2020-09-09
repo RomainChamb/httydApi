@@ -1,4 +1,4 @@
-import * as log from "https://deno.land/std@0.61.0/log/mod.ts";
+import { log } from "../src/deps.ts";
 
 import { Dragon, retrieveAndConvertData as getAllDragons } from "./dragons.ts";
 import { Viking, retrieveAndConvertData as getAllVikings } from "./vikings.ts"

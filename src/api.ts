@@ -1,4 +1,4 @@
-import { Router } from "https://deno.land/x/oak@v6.0.1/mod.ts";
+import { Router } from "./deps.ts";
 
 import * as vikings from "../models/vikings.ts";
 import * as dragons from "../models/dragons.ts";

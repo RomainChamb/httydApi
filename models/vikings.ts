@@ -1,5 +1,6 @@
+import { log } from "../src/deps.ts";
+
 import { FileReader } from "../models/fileReader.ts"
-import * as log from "https://deno.land/std@0.61.0/log/mod.ts";
 
 export interface Viking {
     id: number;
